@@ -23,21 +23,20 @@ html {
   height: 110px;
 }
 
-.active {
-  right: 0;
+.main .active {
+  top: -200px;
 }
 
 .humburger {
-  display: inline-block;
   margin-right: 20px;
   cursor: pointer;
   display: none;
+  color: black;
 }
 
 .nav{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 500px;
 }
 .nav a{
@@ -47,7 +46,6 @@ html {
 }
 .head{
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
 }
@@ -65,4 +63,38 @@ html {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width:800px) {
+  .humburger{
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+  }
+  .nav{
+    position: absolute;
+    right:0px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    padding: 20px;
+    top: 110px;
+    gap: 20px;
+    background-color: rgb(86, 199, 86);;
+
+  }
+
+}
+@media (max-width:550px){
+  .head .title{
+    font-size: 20px;
+  }
+  
+.head .logo img{
+  height: 75px;
+  width: 75px;
+}
+.head{
+  margin-left: 50px;
+}
 }
