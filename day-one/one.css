@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  background-color: wheat;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav .mid ul {
+  display: flex;
+  gap: 20px;
+}
+.nav .mid ul li {
+  list-style: none;
+}
+.nav .mid ul li a {
+  text-decoration-line: none;
+  color: black;
+}
+.nav .right button {
+  padding: 5px;
+  width: 100px;
+  background-color: black;
+  color: aliceblue;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.nav .right .in:hover {
+  cursor: pointer;
+  background-color: wheat;
+  color: black;
+  transition: 0.7s ease-out;
+}
+.nav .right .cart:hover {
+  cursor: pointer;
+  background-color: wheat;
+  color: black;
+  transition: 0.7s ease-out;
+  border-color: black;
+}
