@@ -42,3 +42,18 @@ body {
   transition: 0.7s ease-out;
   border-color: black;
 }
+.subheader {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(211, 187, 144);
+  align-items: center;
+  justify-content: space-around;
+}
+.subheader .shop {
+  padding: 5px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 7px;
+  border-color: white;
+}
