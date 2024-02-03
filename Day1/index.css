@@ -81,7 +81,7 @@ html {
     top: 110px;
     gap: 20px;
     background-color: rgb(86, 199, 86);;
-
+    transition: 0.5s ease;
   }
 
 }
