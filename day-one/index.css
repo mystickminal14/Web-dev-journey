@@ -64,3 +64,10 @@ body {
   border-color: black;
   transition: 0.7s ease-out;
 }
+.product {
+  margin: 50px;
+  /* padding: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
