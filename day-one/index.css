@@ -57,3 +57,10 @@ body {
   border-radius: 7px;
   border-color: white;
 }
+.subheader .shop:hover {
+  cursor: pointer;
+  background-color: rgb(211, 187, 144);
+  color: black;
+  border-color: black;
+  transition: 0.7s ease-out;
+}
