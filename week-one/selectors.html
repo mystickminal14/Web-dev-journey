@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+         div ~ p {
+            background-color:yellow;
+         }
+         h1::first-letter{
+            color:red;
+         }
+         #k::before{
+          content:"kakashi";
+          color:red;
+         }
+         #k::after{
+            content: '👍';
+         }
+    </style>
+  </head>
+  
+  <body>
+    <h1>minal is good. electricity.</h1>
+    <h1 id="k">minal is good. electricity. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia atque, maiores amet, inventore quos natus perferendis dicta alias eum ea adipisci praesentium magni assumenda molestiae repudiandae quia debitis, magnam sunt!</h1>
+
+  </body>
+</html>
