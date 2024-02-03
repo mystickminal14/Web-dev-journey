@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +10,32 @@
 
 <body>
     <header>
-        <div class="left">
-            <div class="brand">
-                Ben 10
+        <div class="main">
+            <div class="head">
+                <div class="logo"><img src="image/Ben_10_Omnitrix.png" alt="" height="100" width="100"></div>
+                <div class="title"> Ben 10</div>
             </div>
-        </div>
-
-        <div class="nav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#Galley">Galley</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="hum">
-            <i class="fa-solid fa-bars fa-2x"></i>
+            <div class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#Galley">Galley</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="humburger">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </div>
         </div>
     </header>
 
-    
     <script>
         let nav = document.querySelector('.nav')
 
-        document.querySelector('.hum').onclick = () => {
+        document.querySelector('.humburger').onclick = () => {
             nav.classList.toggle('active')
         }
         window.onscroll = () => {
             nav.classList.remove('active')
         }
-
     </script>
     <script src="https://kit.fontawesome.com/49b6b027f2.js" crossorigin="anonymous"></script>
 
