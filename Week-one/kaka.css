@@ -26,6 +26,11 @@ html {
 .first .middel ul li{
     list-style: none;
 }
+.first .middle ul li a{
+    color:black;
+    text-decoration: none;
+}
+
 .first .right button{
     background: transparent;
     padding:5px;
