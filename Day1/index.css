@@ -45,7 +45,7 @@ html {
   font-size: 25px;
 }
 .nav a:hover{
-  text-decoration: underline rgb(251, 255, 3);
+  text-decoration: underline ;
   transition: 1s ease-in-out;
 
 }
