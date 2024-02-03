@@ -66,8 +66,37 @@ body {
 }
 .product {
   margin: 50px;
-  /* padding: 50px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.image1 {
+  position: relative;
+  text-align: left;
+  color: rgb(235, 210, 210);
+}
+.center1 {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.image2 {
+  position: relative;
+  text-align: left;
+  color: rgb(235, 210, 210);
+}
+.center2 {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.image3 {
+  position: relative;
+  text-align: left;
+  color: rgb(235, 210, 210);
+}
+.center3 {
+  position: absolute;
+  top: 40%;
+  left: 35%;
 }
