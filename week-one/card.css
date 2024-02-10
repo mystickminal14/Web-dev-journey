@@ -1,4 +1,4 @@
-.catcard , .catcard2{
+.catcard {
     border-style:dotted;
     border-color:black;
     padding:80px;
@@ -6,12 +6,16 @@
     width:350px;
     margin:80px;
     background:rgb(182, 176, 183);
+   
 }
-.catcard img ,.catcard2 img{
+.catcard img  {
     width:350px;
     height:350px;
 }
 .catcard2{
     border-style:solid;
     background:rgb(238, 213, 216);
+}
+.catcard3{
+    background:yellow;
 }
