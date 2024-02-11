@@ -1,21 +1,24 @@
-.catcard {
-    border-style:dotted;
+.catcard1 {
+    border-style:solid;
     border-color:black;
     padding:80px;
     border-radius:20px;
     width:350px;
     margin:80px;
     background:rgb(182, 176, 183);
-   
 }
-.catcard img  {
-    width:350px;
-    height:350px;
+.catcard1 img ,.catcard2 img{
+    width:250px;
+    height:250px;
 }
 .catcard2{
-    border-style:solid;
+    border-style:dotted;
+    border-color:black;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    overflow:hidden;
     background:rgb(238, 213, 216);
 }
-.catcard3{
-    background:yellow;
-}
+
+
