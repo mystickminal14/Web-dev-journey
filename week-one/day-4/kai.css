@@ -1,0 +1,42 @@
+/* 
+
+.center {
+    display: flex;
+    gap: 1em;
+    width: 950px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position:relative;
+}
+
+.center .pos,
+.center .pos2 {
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+
+.center .pos2 {
+    background: skyblue;
+}
+
+.center .mystick {
+    background: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right:0;
+} */
+.fix {
+   
+    width: 100%;
+  
+  
+
+}
+.para{
+    background:blue;
+    position:sticky;
+    bottom:0;
+}
