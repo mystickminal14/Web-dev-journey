@@ -1,0 +1,14 @@
+.fixed{
+    width:250px;
+    background: beige;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+.sticky{
+    width:350px;
+    background:paleturquoise;
+    position:sticky;
+    top: 0px;
+    right: 50px;
+}
